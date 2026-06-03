@@ -6,13 +6,13 @@ An end-to-end deep learning pipeline for detecting anomalies in surveillance vid
 
 | Metric | Score |
 |--------|-------|
-| Top-1 Accuracy | 49.00% |
-| Top-5 Accuracy | 73.05% |
+| Top-1 Accuracy | 50.88% |
+| Top-5 Accuracy | 73.95% |
 
 ## 🏗️ Architecture
 
 - **CNN Backbone**: MobileNetV2 (frozen layers)
-- **Temporal Model**: LSTM (128 units)
+- **Temporal Model**: LSTM (512 units)
 - **Sequence Length**: 16 frames
 - **Input Size**: 224×224×3
 
